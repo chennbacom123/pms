@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\CRS.Pms.Common.Dto\CRS.Pms.Common.Dto.csproj" />
+    <ProjectReference Include="..\CRS.Pms.Server.DBContext\CRS.Pms.Server.DBContext.csproj" />
+    <ProjectReference Include="..\CRS.Pms.Server.Mapper\CRS.Pms.Server.Mapper.csproj" />
+    <ProjectReference Include="..\CRS.Pms.Server.Repository\CRS.Pms.Server.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
