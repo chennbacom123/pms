@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath></BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Common\CRS.Pms.Common.Dto\CRS.Pms.Common.Dto.csproj" />
+    <ProjectReference Include="..\..\..\Common\CRS.Pms.Server.Bussiness\CRS.Pms.Server.Bussiness.csproj" />
+    <ProjectReference Include="..\..\..\Common\CRS.Pms.Server.Mapper\CRS.Pms.Server.Mapper.csproj" />
+    <ProjectReference Include="..\..\..\Common\CRS.Pms.Server.Repository\CRS.Pms.Server.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
