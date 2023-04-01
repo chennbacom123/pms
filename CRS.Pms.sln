@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRS.Pms.Client.WPF.View", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{DDEC1A94-F5AB-419C-A5EB-F2AC8224EA15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRS.Pms.Server.Domain.Product", "Server\Domain\Product\CRS.Pms.Server.Domain.Product\CRS.Pms.Server.Domain.Product.csproj", "{6E487A2D-BE61-437D-817E-F3AFE03C9B15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{C9F243FE-1A9A-45CE-B736-377B0CE07461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F243FE-1A9A-45CE-B736-377B0CE07461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F243FE-1A9A-45CE-B736-377B0CE07461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E487A2D-BE61-437D-817E-F3AFE03C9B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E487A2D-BE61-437D-817E-F3AFE03C9B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E487A2D-BE61-437D-817E-F3AFE03C9B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E487A2D-BE61-437D-817E-F3AFE03C9B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{C00EDD22-38C6-4E86-99D2-C4CE546E7E55} = {35B2D222-EE85-4315-A3A0-34108EC8C323}
 		{C9F243FE-1A9A-45CE-B736-377B0CE07461} = {C00EDD22-38C6-4E86-99D2-C4CE546E7E55}
 		{DDEC1A94-F5AB-419C-A5EB-F2AC8224EA15} = {78C6A79F-ED75-432A-9819-B84086115941}
+		{6E487A2D-BE61-437D-817E-F3AFE03C9B15} = {DDEC1A94-F5AB-419C-A5EB-F2AC8224EA15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE0A4204-7EDA-4826-8AF3-FAED1D4E3DD4}
